@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:https-proxy-agent:20180402':
+    - https-proxy-agent:
+        reason: build-time dep
+        expires: '2020-01-01T20:28:38.059Z'
+  'npm:shelljs:20140723':
+    - shelljs:
+        reason: build-time dep
+        expires: '2020-01-01T20:28:38.059Z'
+patch: {}
